@@ -5,8 +5,8 @@ import org.springframework.stereotype.Service;
 import com.project.book.entity.UserEntity;
 import com.project.book.repository.UserRepository;
 import com.project.book.service.UserService;
-import com.project.common.exception.ApiException;
-import com.project.common.response.ResponseCode;
+import com.project.book.common.exception.ApiException;
+import com.project.book.common.response.ResponseCode;
 
 import org.springframework.transaction.annotation.Transactional;
 import lombok.RequiredArgsConstructor;

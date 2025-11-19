@@ -1,8 +1,8 @@
-package com.project.common.exception;
+package com.project.book.common.exception;
 
 import org.springframework.http.HttpStatus;
 
-import com.project.common.response.ResponseCode;
+import com.project.book.common.response.ResponseCode;
 
 public class ApiException extends RuntimeException {
 	private static final long serialVersionUID = -1179299781904521091L;

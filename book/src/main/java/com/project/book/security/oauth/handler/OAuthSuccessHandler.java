@@ -10,8 +10,8 @@ import org.springframework.web.util.UriComponentsBuilder;
 import com.project.book.dto.AuthDto;
 import com.project.book.service.AuthService;
 import com.project.book.enums.Role;
-import com.project.common.exception.ApiException;
-import com.project.common.response.ResponseCode;
+import com.project.book.common.exception.ApiException;
+import com.project.book.common.response.ResponseCode;
 import com.project.book.security.oauth.CustomOAuth2User;
 
 import jakarta.servlet.ServletException;

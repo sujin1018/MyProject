@@ -1,4 +1,4 @@
-package com.project.common.response;
+package com.project.book.common.response;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.MultiValueMap;
