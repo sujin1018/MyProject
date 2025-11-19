@@ -8,8 +8,8 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.project.common.response.ResponseCode;
-import com.project.common.response.ResponseData;
+import com.project.book.common.response.ResponseCode;
+import com.project.book.common.response.ResponseData;
 
 import io.jsonwebtoken.JwtException;
 import jakarta.servlet.FilterChain;

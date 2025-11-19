@@ -17,8 +17,8 @@ import org.springframework.stereotype.Component;
 
 import com.project.book.dto.AuthDto;
 import com.project.book.enums.Role;
-import com.project.common.exception.ApiException;
-import com.project.common.response.ResponseCode;
+import com.project.book.common.exception.ApiException;
+import com.project.book.common.response.ResponseCode;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
