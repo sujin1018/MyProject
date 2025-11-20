@@ -5,4 +5,6 @@ import com.project.book.enums.Role;
 
 public interface AuthService {
 	AuthDto.TokenInfo login(Long userId, Role role);
+
+	AuthDto.TokenInfo reissue(AuthDto.TokenRequest tokenRequest);
 }
