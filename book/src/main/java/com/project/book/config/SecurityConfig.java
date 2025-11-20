@@ -46,6 +46,7 @@ public class SecurityConfig {
 		// oauth test(삭제예정)
 		"/test",
 		"/success",
+		"/reissue",
 
 		// swagger
 		"/swagger-ui/**",

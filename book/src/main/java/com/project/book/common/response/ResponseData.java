@@ -21,6 +21,7 @@ public class ResponseData<T> {
 		return ResponseEntity
 			.status(responseCode.getStatus())
 			.body(ResponseData.builder()
+				.status(responseCode.getStatus().value())
 				.message(responseCode.getMessage())
 				.code(responseCode)
 				.build()
@@ -32,6 +33,7 @@ public class ResponseData<T> {
 		return ResponseEntity
 			.status(responseCode.getStatus())
 			.body(ResponseData.<T>builder()
+				.status(responseCode.getStatus().value())
 				.message(responseCode.getMessage())
 				.code(responseCode)
 				.data(data)
@@ -45,6 +47,7 @@ public class ResponseData<T> {
 			.status(responseCode.getStatus())
 			.header(String.valueOf(header))
 			.body(ResponseData.<T>builder()
+				.status(responseCode.getStatus().value())
 				.message(responseCode.getMessage())
 				.code(responseCode)
 				.data(data)
